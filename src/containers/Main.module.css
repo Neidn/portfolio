@@ -1,0 +1,56 @@
+/*
+set the width same on every pixel of the screen
+ */
+.default-width {
+  width: 1920px;
+}
+
+@media (max-width: 1920px) {
+  .default-width {
+    width: 1920px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .default-width {
+    width: 1440px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .default-width {
+    width: 1366px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .default-width {
+    width: 1280px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .default-width {
+    width: 1024px;
+  }
+}
+
+@media (max-width: 768px) {
+  .default-width {
+    width: 768px;
+  }
+}
+
+@media (max-width: 480px) {
+  .default-width {
+    width: 480px;
+  }
+}
+
+@media (max-width: 320px) {
+  .default-width {
+    width: 320px;
+  }
+}
+
+/* Path: src/containers/Main.module.css */
