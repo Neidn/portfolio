@@ -16,8 +16,12 @@ import ProjectsData from "../../shared/opensource/projects.json";
 import ProjectsImg from "./ProjectsImg";
 import styles from "./Projects.module.css";
 
+// Modal
+import ModalWrapper from "../../components/projectsModal/ModalWrapper";
+
 const Projects = (props) => {
   const theme = props.theme;
+
   return (
     <div className={styles["projects-main"]}>
       <Header theme={theme} />
@@ -44,6 +48,8 @@ const Projects = (props) => {
           </div>
         </Fade>
       </div>
+      {/* Modal will be rendered here */}
+      <ModalWrapper data={ProjectsData.data} theme={theme} />
       <div className={styles["repo-cards-div-main"]}>
         {ProjectsData.data.map((repo) => {
           return <GithubRepoCard repo={repo} theme={theme} />;

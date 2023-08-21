@@ -27,6 +27,32 @@
       ]
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "portfolio2",
+      "createdAt": "2020-03-06T16:26:54Z",
+      "url": "https://github.com/Neidn/portfolio",
+      "description": "🔥 Portfolio Source Code of this website.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "Dockerfile",
+          "iconifyClass": "simple-icons:docker"
+        }
+      ]
+    },
+    {
       "id": "R_kgDOG_vYHA",
       "name": "explainable-cnn",
       "createdAt": "2022-03-13T20:41:33Z",

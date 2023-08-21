@@ -1,0 +1,24 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.45);
+  z-index: 10;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  background: #ffffe7;
+  overflow: auto;
+  top: 42vh;
+  left: 38vw;
+  right: 38vw;
+  bottom: 42vh;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 14px;
+  outline: none;
+  z-index: 10;
+}

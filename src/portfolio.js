@@ -454,6 +454,15 @@ const certifications = {
       alt_name: "IBM",
       color_code: "#1F70C199",
     },
+    {
+      title: "Machine Learning",
+      subtitle: "- Andrew Ng",
+      logo_path: "deeplearning_ai_logo.png",
+      certificate_link:
+        "https://coursera.org/share/498d1acb63531007e978dac75f0dd709",
+      alt_name: "deeplearning.ai",
+      color_code: "#00000099",
+    },
     /*
     {
       title: "Machine Learning",
@@ -743,7 +752,6 @@ const projectsHeader = {
     "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
   avatar_image_path: "projects_image.svg",
 };
-
 
 const publicationsHeader = {
   title: "Publications",

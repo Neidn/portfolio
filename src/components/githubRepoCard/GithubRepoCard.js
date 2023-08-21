@@ -1,11 +1,18 @@
-import ProjectLanguages from "../../components/projectLanguages/ProjectLanguages";
 import { Fade } from "react-reveal";
+import ProjectLanguages from "../../components/projectLanguages/ProjectLanguages";
 import styles from "./GithubRepoCard.module.css";
+import { modalActions } from "../../store/slices/Modal";
+import { useDispatch } from "react-redux";
 
 const GithubRepoCard = ({ repo, theme }) => {
-  const openRepoinNewTab = (url) => {
-    const win = window.open(url, "_blank");
-    win.focus();
+  const dispatch = useDispatch();
+
+  const openModal = (modalName) => {
+    dispatch(
+      modalActions.modalOpen({
+        modalName: modalName,
+      })
+    );
   };
 
   return (
@@ -14,7 +21,7 @@ const GithubRepoCard = ({ repo, theme }) => {
       style={{ backgroundColor: theme.highlight }}
     >
       <Fade bottom duration={2000} distance="40px">
-        <div key={repo.id} onClick={() => openRepoinNewTab(repo.url)}>
+        <div key={repo.id} onClick={() => openModal(repo.name)}>
           <div className={styles["repo-name-div"]}>
             <svg
               aria-hidden="true"

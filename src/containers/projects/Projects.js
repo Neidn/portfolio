@@ -5,10 +5,9 @@ import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
 import Button from "../../components/button/Button";
 import { openSource } from "../../portfolio";
 import { greeting } from "../../portfolio.js";
-import styles from './Project.module.css';
+import styles from "./Project.module.css";
 
 const Projects = (props) => {
-  console.log(props.theme);
   const [repo, setRepo] = useState([]);
 
   const setRepoFunction = (array) => {
