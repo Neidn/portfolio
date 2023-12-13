@@ -11,6 +11,18 @@ set the width same on every pixel of the screen
   }
 }
 
+@media (max-width: 1600px) {
+  .default-width {
+    width: 1600px;
+  }
+}
+
+@media (max-width: 1536px) {
+  .default-width {
+    width: 1536px;
+  }
+}
+
 @media (max-width: 1440px) {
   .default-width {
     width: 1440px;

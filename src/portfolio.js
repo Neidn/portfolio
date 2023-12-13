@@ -405,6 +405,24 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      title: "AWS Certified Solutions Architect - Associate",
+      subtitle: "- SAA-003",
+      logo_path: "aws_logo.png",
+      certificate_link:
+        "https://www.credly.com/badges/01b95ff8-1c54-4391-8ac7-25d267d55ced/public_url",
+      alt_name: "AWS",
+      color_code: "#D83B0199",
+    },
+    {
+      title: "Microsoft Certified: Azure Fundamentals",
+      subtitle: "- AZ-900",
+      logo_path: "microsoft_logo.png",
+      certificate_link:
+        "https://www.credly.com/badges/424c03dc-1ba3-4aad-a166-df23a44b7ee0/public_url",
+      alt_name: "Microsoft",
+      color_code: "#FFBB0099",
+    },
+    {
       title: "Full Stack Software Developer",
       subtitle: "- IBM Skills Network Team",
       logo_path: "ibm_logo.png",
@@ -457,24 +475,6 @@ const certifications = {
         "https://coursera.org/share/42d73d8d6118186247a01d387228a049",
       alt_name: "IBM",
       color_code: "#4285F499",
-    },
-    {
-      title: "AWS Certified Solutions Architect - Associate",
-      subtitle: "- SAA-003",
-      logo_path: "aws_logo.png",
-      certificate_link:
-        "https://www.credly.com/badges/01b95ff8-1c54-4391-8ac7-25d267d55ced/public_url",
-      alt_name: "AWS",
-      color_code: "#D83B0199",
-    },
-    {
-      title: "Microsoft Certified: Azure Fundamentals",
-      subtitle: "- AZ-900",
-      logo_path: "microsoft_logo.png",
-      certificate_link:
-        "https://www.credly.com/badges/424c03dc-1ba3-4aad-a166-df23a44b7ee0/public_url",
-      alt_name: "Microsoft",
-      color_code: "#FFBB0099",
     },
     /*
     {
