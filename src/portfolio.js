@@ -399,26 +399,20 @@ const degrees = {
       ],
       website_link: "https://knou.ac.kr/",
     },
-    /*
-    {
-      title: "Indiana University Bloomington",
-      subtitle: "M.S. in Computer Science",
-      logo_path: "iu_logo.png",
-      alt_name: "Indiana University Bloomington",
-      duration: "2021 - 2023",
-      descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
-      ],
-      website_link: "https://www.indiana.edu/",
-    },
-     */
   ],
 };
 
 const certifications = {
   certifications: [
+    {
+      title: "Full Stack Software Developer",
+      subtitle: "- IBM Skills Network Team",
+      logo_path: "ibm_logo.png",
+      certificate_link:
+        "https://coursera.org/share/c3d1b7aa7df2d6889ad63e1c8255f851",
+      alt_name: "IBM",
+      color_code: "#2A73CC",
+    },
     {
       title: "Back-End Development",
       subtitle: "- John Rofrano",
@@ -429,6 +423,24 @@ const certifications = {
       color_code: "#1F70C199",
     },
     {
+      title: "Applied Software Engineering Fundamentals",
+      subtitle: "-  Abhishek Gagneja",
+      logo_path: "ibm_logo.png",
+      certificate_link:
+        "https://coursera.org/share/68899715dc6549a990154f1ec857fe1d",
+      alt_name: "IBM",
+      color_code: "#4285F499",
+    },
+    {
+      title: "Machine Learning Engineering for Production",
+      subtitle: "- Andrew Ng",
+      logo_path: "deeplearning_ai_logo.png",
+      certificate_link:
+        "https://coursera.org/share/66592cbacce46ec66ec9dfcd8600dfee",
+      alt_name: "deeplearning.ai",
+      color_code: "#0C9D5899",
+    },
+    {
       title: "Machine Learning",
       subtitle: "- Andrew Ng",
       logo_path: "deeplearning_ai_logo.png",
@@ -437,34 +449,34 @@ const certifications = {
       alt_name: "deeplearning.ai",
       color_code: "#00000099",
     },
+    {
+      title: "DevOps and Software Engineering",
+      subtitle: "- John Rofrano",
+      logo_path: "ibm_logo.png",
+      certificate_link:
+        "https://coursera.org/share/42d73d8d6118186247a01d387228a049",
+      alt_name: "IBM",
+      color_code: "#4285F499",
+    },
+    {
+      title: "AWS Certified Solutions Architect - Associate",
+      subtitle: "- SAA-003",
+      logo_path: "aws_logo.png",
+      certificate_link:
+        "https://www.credly.com/badges/01b95ff8-1c54-4391-8ac7-25d267d55ced/public_url",
+      alt_name: "AWS",
+      color_code: "#D83B0199",
+    },
+    {
+      title: "Microsoft Certified: Azure Fundamentals",
+      subtitle: "- AZ-900",
+      logo_path: "microsoft_logo.png",
+      certificate_link:
+        "https://www.credly.com/badges/424c03dc-1ba3-4aad-a166-df23a44b7ee0/public_url",
+      alt_name: "Microsoft",
+      color_code: "#FFBB0099",
+    },
     /*
-    {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
-      color_code: "#8C151599",
-    },
-    {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
     {
       title: "Data Science",
       subtitle: "- Alex Aklson",
@@ -473,15 +485,6 @@ const certifications = {
         "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
       alt_name: "IBM",
       color_code: "#1F70C199",
-    },
-    {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
-      logo_path: "microsoft_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-      alt_name: "Microsoft",
-      color_code: "#D83B0199",
     },
     {
       title: "Advanced Data Science",
@@ -510,43 +513,6 @@ const certifications = {
       alt_name: "deeplearning.ai",
       color_code: "#00000099",
     },
-    {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
-      logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
-      color_code: "#2A73CC",
-    },
-    {
-      title: "Kuberenetes on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
-    {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
-      certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
-    },
-    {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
-
      */
   ],
 };
